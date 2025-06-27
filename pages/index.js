@@ -87,8 +87,8 @@ const Home = (props) => {
                 </p>
                 <p className="home-paragraph11">
                   <span>
-                    We offer unparalleled leverage for your organization,
-                    R&amp;D, product- and value-centricity, and delivery aligned
+                    We offer unparalleled leverage for your organization, and
+                    R&amp;D; product- and value-centricity, and delivery aligned
                     with PMI standards.
                   </span>
                   <br></br>
@@ -132,7 +132,7 @@ const Home = (props) => {
                 </p>
                 <p className="home-paragraph15">
                   <span>
-                    Our experts have, on average, 10+ years of experience in
+                    dlvr experts have, on average, 10+ years of experience in
                     their respective fields, with many holding advanced degrees
                     and professional certifications.
                     <span
@@ -270,6 +270,11 @@ const Home = (props) => {
               </Fragment>
             }
             rootClassName="contact1root-class-name"
+            content11={
+              <Fragment>
+                <span className="home-text76">calendly</span>
+              </Fragment>
+            }
           ></Contact1>
           <span className="home-copyright">
             © 2025. dlvr global. All Rights Reserved.
@@ -347,25 +352,29 @@ const Home = (props) => {
           }
           .home-link2 {
             color: rgb(255, 255, 255);
-            font-size: 20px;
+            font-size: 18px;
+            font-style: normal;
             font-family: 'Fira Sans';
-            letter-spacing: 1.5px;
+            font-weight: 500;
+            text-transform: uppercase;
             text-decoration: none;
           }
           .home-link3 {
             color: rgb(255, 255, 255);
-            font-size: 20px;
+            font-size: 18px;
+            font-style: normal;
             font-family: 'Fira Sans';
-            letter-spacing: 1.2px;
+            font-weight: 500;
+            text-transform: uppercase;
             text-decoration: none;
           }
           .home-link4 {
             color: #ffcf77;
-            font-size: 20px;
+            font-size: 18px;
             font-style: normal;
             font-family: 'Fira Sans';
-            font-weight: 800;
-            letter-spacing: 1.2px;
+            font-weight: 700;
+            text-transform: uppercase;
             text-decoration: none;
           }
           .home-landing {
@@ -389,7 +398,7 @@ const Home = (props) => {
           }
           .home-header2 {
             color: rgb(255, 255, 255);
-            font-size: 84px;
+            font-size: 80px;
             max-width: 900px;
             font-style: normal;
             margin-top: var(--dl-layout-space-sixunits);
@@ -423,7 +432,7 @@ const Home = (props) => {
             align-self: center;
             font-style: normal;
             font-family: 'Fira Sans';
-            font-weight: 700;
+            font-weight: 500;
             margin-bottom: var(--dl-layout-space-twounits);
             letter-spacing: 2px;
             text-transform: uppercase;
@@ -432,7 +441,7 @@ const Home = (props) => {
             gap: var(--dl-layout-space-fiveunits);
             width: 100%;
             display: flex;
-            max-width: 1296px;
+            max-width: 1064px;
             align-self: center;
             align-items: flex-start;
             padding-left: var(--dl-layout-space-fiveunits);
@@ -448,24 +457,24 @@ const Home = (props) => {
           }
           .home-paragraph10 {
             color: rgb(255, 255, 255);
-            font-size: 34px;
+            font-size: 30px;
             text-align: justify;
             font-family: 'Fira Sans';
-            line-height: 48px;
+            line-height: 42px;
           }
           .home-paragraph11 {
             color: rgb(255, 255, 255);
-            font-size: 34px;
+            font-size: 30px;
             text-align: justify;
             font-family: 'Fira Sans';
-            line-height: 48px;
+            line-height: 42px;
           }
           .home-paragraph12 {
             color: rgb(255, 255, 255);
-            font-size: 34px;
+            font-size: 30px;
             text-align: justify;
             font-family: 'Fira Sans';
-            line-height: 48px;
+            line-height: 42px;
           }
           .home-services1 {
             gap: 120px;
@@ -492,7 +501,7 @@ const Home = (props) => {
             align-self: center;
             font-style: normal;
             font-family: 'Fira Sans';
-            font-weight: 700;
+            font-weight: 500;
             margin-bottom: var(--dl-layout-space-twounits);
             letter-spacing: 2px;
             text-transform: uppercase;
@@ -501,12 +510,13 @@ const Home = (props) => {
             gap: var(--dl-layout-space-fiveunits);
             width: 100%;
             display: flex;
-            max-width: 1296px;
+            max-width: 1064px;
             align-self: center;
             align-items: flex-start;
             padding-left: var(--dl-layout-space-fiveunits);
             padding-right: var(--dl-layout-space-fiveunits);
             flex-direction: column;
+            padding-bottom: var(--dl-layout-space-unit);
           }
           .home-content2 {
             gap: var(--dl-layout-space-threeunits);
@@ -517,7 +527,7 @@ const Home = (props) => {
           }
           .home-header3 {
             color: rgb(255, 255, 255);
-            font-size: 68px;
+            font-size: 54px;
             align-self: center;
             font-style: normal;
             text-align: center;
@@ -526,73 +536,76 @@ const Home = (props) => {
           }
           .home-paragraph13 {
             color: rgb(255, 255, 255);
-            font-size: 34px;
+            font-size: 30px;
             text-align: justify;
             font-family: 'Fira Sans';
-            line-height: 48px;
+            line-height: 42px;
           }
           .home-paragraph14 {
             color: rgb(255, 255, 255);
-            font-size: 34px;
+            font-size: 30px;
             text-align: justify;
             font-family: 'Fira Sans';
-            line-height: 48px;
+            line-height: 42px;
           }
           .home-paragraph15 {
             color: rgb(255, 255, 255);
-            font-size: 34px;
+            font-size: 30px;
             text-align: justify;
             font-family: 'Fira Sans';
-            line-height: 48px;
+            line-height: 42px;
           }
           .home-paragraph16 {
             color: rgb(255, 255, 255);
-            font-size: 34px;
+            font-size: 30px;
+            align-self: stretch;
             text-align: justify;
             font-family: 'Fira Sans';
-            line-height: 48px;
+            line-height: 42px;
           }
           .home-paragraph17 {
             color: rgb(255, 255, 255);
-            font-size: 34px;
+            font-size: 30px;
             align-self: stretch;
             text-align: justify;
-            line-height: 48px;
+            font-family: 'Fira Sans';
+            line-height: 42px;
           }
           .home-paragraph18 {
             color: rgb(255, 255, 255);
-            font-size: 34px;
+            font-size: 30px;
             text-align: justify;
             font-family: 'Fira Sans';
-            line-height: 48px;
+            line-height: 42px;
           }
           .home-paragraph19 {
             color: rgb(255, 255, 255);
-            font-size: 34px;
+            font-size: 30px;
             text-align: justify;
             font-family: 'Fira Sans';
-            line-height: 48px;
+            line-height: 42px;
           }
           .home-paragraph20 {
             color: rgb(255, 255, 255);
-            font-size: 34px;
+            font-size: 30px;
             text-align: justify;
             font-family: 'Fira Sans';
-            line-height: 48px;
+            line-height: 42px;
           }
           .home-paragraph21 {
             color: rgb(255, 255, 255);
-            font-size: 34px;
+            font-size: 30px;
             text-align: justify;
             font-family: 'Fira Sans';
-            line-height: 48px;
+            line-height: 42px;
           }
           .home-paragraph22 {
             color: rgb(255, 255, 255);
-            font-size: 34px;
+            font-size: 30px;
+            align-self: stretch;
             text-align: justify;
             font-family: 'Fira Sans';
-            line-height: 48px;
+            line-height: 42px;
           }
           .home-contact1 {
             gap: 120px;
@@ -612,7 +625,7 @@ const Home = (props) => {
             align-self: center;
             font-style: normal;
             font-family: 'Fira Sans';
-            font-weight: 700;
+            font-weight: 500;
             margin-bottom: var(--dl-layout-space-twounits);
             letter-spacing: 2px;
             text-transform: uppercase;
@@ -633,129 +646,14 @@ const Home = (props) => {
           .home-text73 {
             display: inline-block;
           }
+          .home-text76 {
+            display: inline-block;
+          }
           .home-copyright {
             color: rgb(255, 255, 255);
             font-size: 14px;
             align-self: center;
             font-family: 'Fira Sans';
-          }
-          @media (max-width: 1600px) {
-            .home-desktop-menu {
-              display: flex;
-              align-self: center;
-              align-items: stretch;
-              justify-content: flex-start;
-            }
-            .home-link4 {
-              font-style: normal;
-              font-weight: 800;
-            }
-            .home-about2 {
-              margin-bottom: var(--dl-layout-space-twounits);
-            }
-            .home-description1 {
-              width: auto;
-              max-width: auto;
-              margin-bottom: var(--dl-layout-space-fiveunits);
-            }
-            .home-content1 {
-              height: auto;
-            }
-            .home-paragraph10 {
-              font-family: Fira Sans;
-            }
-            .home-services1 {
-              margin-top: var(--dl-layout-space-fourunits);
-              margin-bottom: var(--dl-layout-space-sixunits);
-              padding-bottom: 0px;
-            }
-            .home-services2 {
-              color: rgb(255, 207, 119);
-              font-style: normal;
-              font-weight: 700;
-              margin-bottom: var(--dl-layout-space-twounits);
-              letter-spacing: 2px;
-              text-transform: uppercase;
-            }
-            .home-description2 {
-              margin-bottom: var(--dl-layout-space-fiveunits);
-            }
-            .home-content2 {
-              height: auto;
-            }
-            .home-paragraph13 {
-              align-self: flex-start;
-              text-align: justify;
-              font-family: Fira Sans;
-            }
-            .home-paragraph14 {
-              color: rgb(255, 255, 255);
-              font-size: 34px;
-              line-height: 48px;
-            }
-            .home-paragraph16 {
-              color: rgb(255, 255, 255);
-              font-size: 34px;
-              line-height: 48px;
-            }
-            .home-contact1 {
-              padding: var(--dl-layout-space-unit);
-              position: relative;
-            }
-            .home-contact3 {
-              margin-bottom: var(--dl-layout-space-twounits);
-            }
-          }
-          @media (max-width: 1200px) {
-            .home-about1 {
-              padding-bottom: 0px;
-            }
-            .home-about2 {
-              margin-bottom: var(--dl-layout-space-twounits);
-            }
-            .home-paragraph10 {
-              color: rgb(255, 255, 255);
-              font-size: 34px;
-              line-height: 48px;
-            }
-            .home-text16 {
-              color: rgb(255, 255, 255);
-              font-size: 34px;
-              line-height: 48px;
-            }
-            .home-services1 {
-              margin-top: 0px;
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-layout-space-twounits);
-            }
-            .home-services2 {
-              margin-bottom: var(--dl-layout-space-twounits);
-            }
-            .home-paragraph13 {
-              color: rgb(255, 255, 255);
-              font-size: 34px;
-              line-height: 48px;
-            }
-            .home-paragraph15 {
-              color: rgb(255, 255, 255);
-              font-size: 34px;
-              line-height: 48px;
-            }
-            .home-paragraph22 {
-              width: 100%;
-              text-align: justify;
-            }
-            .home-contact1 {
-              margin-left: var(--dl-layout-space-unit);
-              padding-top: 0px;
-              margin-right: var(--dl-layout-space-unit);
-              padding-left: 0px;
-              padding-right: 0px;
-            }
-            .home-contact3 {
-              margin-bottom: var(--dl-layout-space-twounits);
-            }
           }
           @media (max-width: 991px) {
             .home-dlvr {
@@ -806,6 +704,7 @@ const Home = (props) => {
               font-size: 56px;
             }
             .home-contact1 {
+              margin-top: var(--dl-layout-space-twounits);
               padding-bottom: var(--dl-layout-space-unit);
             }
             .home-contact2 {
@@ -835,6 +734,16 @@ const Home = (props) => {
               align-self: flex-start;
               flex-direction: row;
               justify-content: flex-end;
+            }
+            .home-link2 {
+              font-size: 18px;
+            }
+            .home-link3 {
+              font-size: 18px;
+            }
+            .home-link4 {
+              font-size: 18px;
+              text-transform: uppercase;
             }
             .home-landing {
               max-width: auto;
@@ -900,7 +809,7 @@ const Home = (props) => {
             .home-description2 {
               gap: var(--dl-layout-space-threeunits);
               padding-left: var(--dl-layout-space-oneandhalfunits);
-              margin-bottom: var(--dl-layout-space-twounits);
+              margin-bottom: var(--dl-layout-space-unit);
               padding-right: var(--dl-layout-space-oneandhalfunits);
             }
             .home-content2 {
@@ -958,6 +867,7 @@ const Home = (props) => {
             }
             .home-contact1 {
               gap: var(--dl-layout-space-threeunits);
+              margin-top: var(--dl-layout-space-unit);
               padding-bottom: var(--dl-layout-space-unit);
             }
             .home-contact2 {
@@ -994,6 +904,12 @@ const Home = (props) => {
             .home-link3 {
               display: none;
             }
+            .home-link4 {
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 700;
+              text-transform: uppercase;
+            }
             .home-landing {
               width: 100%;
               max-width: auto;
@@ -1018,6 +934,8 @@ const Home = (props) => {
               margin-right: var(--dl-layout-space-unit);
             }
             .home-about2 {
+              font-style: normal;
+              font-weight: 500;
               margin-bottom: var(--dl-layout-space-twounits);
             }
             .home-description1 {
